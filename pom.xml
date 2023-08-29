@@ -54,7 +54,7 @@
     <version.android.sdk.signature>0.5.1</version.android.sdk.signature>
 
     <!-- Can not use default, since group id != Java package name here -->
-    <osgi.export>com.fasterxml.jackson.databind.*;version=${project.version}</osgi.export>
+    <osgi.export>io.github.errantfiddle.jackson.databind.*;version=${project.version}</osgi.export>
     <!-- fix for databind#2299: using jackson-databind in an OSGi environment under Android --> 
     <osgi.import>
         org.w3c.dom.bootstrap;resolution:=optional,
@@ -63,7 +63,7 @@
 
     <!-- Generate PackageVersion.java into this directory. -->
     <packageVersion.dir>com/fasterxml/jackson/databind/cfg</packageVersion.dir>
-    <packageVersion.package>com.fasterxml.jackson.databind.cfg</packageVersion.package>
+    <packageVersion.package>io.github.errantfiddle.jackson.databind.cfg</packageVersion.package>
 
     <version.powermock>2.0.9</version.powermock>
 
@@ -206,7 +206,7 @@
             <exclude>javax.measure:jsr-275</exclude>
           </classpathDependencyExcludes>
           <excludes>
-            <exclude>com.fasterxml.jackson.databind.MapperFootprintTest</exclude>
+            <exclude>io.github.errantfiddle.jackson.databind.MapperFootprintTest</exclude>
             <exclude>**/failing/**/*.java</exclude>
           </excludes>
           <!-- 26-Nov-2019, tatu: moar parallelism! Per-class basis, safe, efficient enough
