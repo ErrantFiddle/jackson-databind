@@ -17,7 +17,7 @@
   <name>jackson-databind</name>
   <packaging>jar</packaging>
   <description>General data-binding functionality for Jackson: works on core streaming API</description>
-  <url>https://github.com/FasterXML/jackson</url>
+  <url>https://github.com/ErrantFiddle/jackson</url>
   <inceptionYear>2008</inceptionYear>
   <licenses>
     <license>
@@ -28,9 +28,9 @@
   </licenses>
   
   <scm>
-    <connection>scm:git:git@github.com:FasterXML/jackson-databind.git</connection>
-    <developerConnection>scm:git:git@github.com:FasterXML/jackson-databind.git</developerConnection>
-    <url>https://github.com/FasterXML/jackson-databind</url>
+    <connection>scm:git:git@github.com:ErrantFiddle/jackson-databind.git</connection>
+    <developerConnection>scm:git:git@github.com:ErrantFiddle/jackson-databind.git</developerConnection>
+    <url>https://github.com/ErrantFiddle/jackson-databind</url>
     <tag>HEAD</tag>
   </scm>
 
